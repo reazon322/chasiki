@@ -83,3 +83,54 @@ body{
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
+.timer{
+    margin: 70px 0;
+    font-family: 'Anonymous Pro', monospace;
+  }
+  .timer-time{
+    display: block;
+    font-size: 30px;
+    margin: 200px 0 20px 5px;
+  }
+  .timer input[type="number"] {
+    color: #f0f8ff;
+      background-color:rgba(40, 167, 167, 0.322);
+      outline: none;
+    text-align: center;
+      height: 40px;
+      text-indent: 10px;
+      display: block;
+      width: 70px;
+      box-sizing: border-box;
+      border: 1px;
+      font-size: 14px;
+      border-radius: 3px;
+    padding: 0 7px 0 0;
+    margin: 0 0 20px 125px;
+  }
+  .timer input[type="number"]::-webkit-outer-spin-button,
+  .timer input[type="number"]::-webkit-inner-spin-button {
+      display: none;
+  }
+  
+  button{
+    font-family: 'Fontawesome';
+    font-size: 35px;
+    background-color: springgreen;
+    outline: none;
+    border: solid;
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+  }
+  
+  .timer .play{
+    color: rgba(88, 185, 93, 0.5);
+  }
+  
+  .timer .pause{
+    color: rgba(253, 253, 253, 0.6);
+  }
+  
+  .timer .reset{
+    color: rgba(167, 50, 50, 0.6);
+  }
